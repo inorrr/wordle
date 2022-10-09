@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface ViewListener {
+/**
+ * Provides methods to notify on user interaction
+ */
+public interface ViewListener {
+    void onButtonClicked();
 }
